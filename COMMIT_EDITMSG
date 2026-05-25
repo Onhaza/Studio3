@@ -1,0 +1,236 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/catalog.css"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/edit_password.css"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/edit_password.html"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/edit_password.js"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/home1.css"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/home1.html"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/labstaff_catalog.css"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/labstaff_catalog.html"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/logo.png"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/logo_empty.png"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/request_password.css"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/request_password.html"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/reset_password.css"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/reset_password.html"
+#	new file:   "Bowwing-Return-System/catalog \340\270\211\340\270\232\340\270\261\340\270\232\340\271\201\340\270\201\340\271\211\340\271\204\340\270\202\340\271\203\340\270\253\340\270\241\340\271\210/user_catalog.html"
+#	new file:   Bowwing-Return-System/myproject/db.sqlite3
+#	new file:   Bowwing-Return-System/myproject/manage.py
+#	new file:   Bowwing-Return-System/myproject/media/images/VR_glasses.jpg
+#	new file:   Bowwing-Return-System/myproject/media/images/VR_glasses_ip5xHNw.jpg
+#	new file:   Bowwing-Return-System/myproject/myapp/__init__.py
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/__init__.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/__init__.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/admin.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/admin.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/apps.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/apps.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/backends.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/borrowing.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/borrowing.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/forms.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/models.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/models.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/urls.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/urls.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/views.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/__pycache__/views.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/admin.py
+#	new file:   Bowwing-Return-System/myproject/myapp/apps.py
+#	new file:   Bowwing-Return-System/myproject/myapp/backends.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0001_initial.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0002_admin_staff.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0003_equipment.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0004_equipment_image.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0005_equipment_unique_parcel_id.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0006_status_alter_equipment_image.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0007_equipment_borrower.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0008_alter_staff_email_alter_staff_username_and_more.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0008_passwordresettoken_alter_staff_email_and_more.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0009_admin_last_login_staff_last_login_student_last_login.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0010_alter_staff_email_alter_staff_username_and_more.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0011_borrowing_delete_status.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0012_alter_student_kkumail_alter_student_username.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0013_rename_equipment_borrowing_equipment_id.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0014_alter_borrowing_borrowed_on.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/0015_rename_equipment_id_borrowing_equipment.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__init__.py
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0001_initial.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0001_initial.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0002_admin_staff.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0002_admin_staff.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0003_equipment.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0003_equipment.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0004_equipment_image.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0004_equipment_image.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0005_equipment_unique_parcel_id.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0005_equipment_unique_parcel_id.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0006_status_alter_equipment_image.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0006_status_alter_equipment_image.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0007_equipment_borrower.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0007_equipment_borrower.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0008_alter_staff_email_alter_staff_username_and_more.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0008_passwordresettoken_alter_staff_email_and_more.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0009_admin_last_login_staff_last_login_student_last_login.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0010_alter_staff_email_alter_staff_username_and_more.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0011_borrowing_delete_status.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0012_alter_student_kkumail_alter_student_username.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0013_rename_equipment_borrowing_equipment_id.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0014_alter_borrowing_borrowed_on.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/0015_rename_equipment_id_borrowing_equipment.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/__init__.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/migrations/__pycache__/__init__.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myapp/models.py
+#	new file:   Bowwing-Return-System/myproject/myapp/static/Dashboard.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/base_user.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/borrowing status.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/borrowing.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/catalog admin.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/catalog_user.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/edit admin.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/homecss.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/images/VR_glasses.jpg
+#	new file:   Bowwing-Return-System/myproject/myapp/static/images/home.jpg
+#	new file:   Bowwing-Return-System/myproject/myapp/static/images/logo_empty.png
+#	new file:   Bowwing-Return-System/myproject/myapp/static/images/pen_mouse.jpg
+#	new file:   Bowwing-Return-System/myproject/myapp/static/labstaff_catalog.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/login_studentCss.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/logo.png
+#	new file:   Bowwing-Return-System/myproject/myapp/static/maincatalogCss.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/maincatalogjava.js
+#	new file:   Bowwing-Return-System/myproject/myapp/static/rating.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/registorCss.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/registormodelcss.css
+#	new file:   Bowwing-Return-System/myproject/myapp/static/request.css
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/admin1/Dashboard.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/admin1/add_item.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/admin1/base.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/admin1/catalog admin.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/admin1/edit admin.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/admin1/history_admin.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/admin1/home_admin.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/borrow_lab.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/data_list_model.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/forgot_password.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/home.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/login.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/registor.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/request.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/reset_password.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/staff/approval_staff.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/staff/base.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/staff/catalog labstaff.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/staff/history_staff.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/staff/home_staff.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/user/base.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/user/borrow_user.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/user/borrowing.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/user/catalog_user.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/user/home_user.html
+#	new file:   Bowwing-Return-System/myproject/myapp/templates/user/maincatalog.html
+#	new file:   Bowwing-Return-System/myproject/myapp/tests.py
+#	new file:   Bowwing-Return-System/myproject/myapp/urls.py
+#	new file:   Bowwing-Return-System/myproject/myapp/views.py
+#	new file:   Bowwing-Return-System/myproject/myproject/__init__.py
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/__init__.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/__init__.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/settings.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/settings.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/urls.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/urls.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/wsgi.cpython-311.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/__pycache__/wsgi.cpython-312.pyc
+#	new file:   Bowwing-Return-System/myproject/myproject/asgi.py
+#	new file:   Bowwing-Return-System/myproject/myproject/settings.py
+#	new file:   Bowwing-Return-System/myproject/myproject/urls.py
+#	new file:   Bowwing-Return-System/myproject/myproject/wsgi.py
+#	new file:   Workshop_login/myproject/myproject/db.sqlite3
+#	new file:   Workshop_login/myproject/myproject/manage.py
+#	new file:   Workshop_login/myproject/myproject/myapp/.DS_Store
+#	new file:   Workshop_login/myproject/myproject/myapp/__init__.py
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/__init__.cpython-311.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/__init__.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/__init__.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/admin.cpython-311.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/admin.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/admin.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/apps.cpython-311.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/apps.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/apps.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/forms.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/forms.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/models.cpython-311.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/models.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/models.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/urls.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/urls.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/views.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/__pycache__/views.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/admin.py
+#	new file:   Workshop_login/myproject/myproject/myapp/apps.py
+#	new file:   Workshop_login/myproject/myproject/myapp/forms.py
+#	new file:   Workshop_login/myproject/myproject/myapp/migrations/0001_initial.py
+#	new file:   Workshop_login/myproject/myproject/myapp/migrations/__init__.py
+#	new file:   Workshop_login/myproject/myproject/myapp/migrations/__pycache__/0001_initial.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/migrations/__pycache__/0001_initial.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/migrations/__pycache__/__init__.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/migrations/__pycache__/__init__.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/models.py
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__init__.py
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/__init__.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/__init__.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/settings.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/settings.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/urls.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/urls.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/wsgi.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/__pycache__/wsgi.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/asgi.py
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/settings.py
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/urls.py
+#	new file:   Workshop_login/myproject/myproject/myapp/myproject/wsgi.py
+#	new file:   Workshop_login/myproject/myproject/myapp/templates/.DS_Store
+#	new file:   Workshop_login/myproject/myproject/myapp/templates/myapp/edit_record.html
+#	new file:   Workshop_login/myproject/myproject/myapp/templates/myapp/home.html
+#	new file:   Workshop_login/myproject/myproject/myapp/templates/myapp/login.html
+#	new file:   Workshop_login/myproject/myproject/myapp/templates/myapp/records.html
+#	new file:   Workshop_login/myproject/myproject/myapp/templates/myapp/register.html
+#	new file:   Workshop_login/myproject/myproject/myapp/tests.py
+#	new file:   Workshop_login/myproject/myproject/myapp/urls.py
+#	new file:   Workshop_login/myproject/myproject/myapp/views.py
+#	new file:   Workshop_login/myproject/myproject/myproject/__init__.py
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/__init__.cpython-311.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/__init__.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/__init__.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/settings.cpython-311.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/settings.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/settings.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/urls.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/urls.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/wsgi.cpython-312.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/__pycache__/wsgi.cpython-39.pyc
+#	new file:   Workshop_login/myproject/myproject/myproject/asgi.py
+#	new file:   Workshop_login/myproject/myproject/myproject/settings.py
+#	new file:   Workshop_login/myproject/myproject/myproject/urls.py
+#	new file:   Workshop_login/myproject/myproject/myproject/wsgi.py
+#	new file:   login/login_admin.html
+#	new file:   login/login_adminCss.css
+#	new file:   login/login_labstaff.html
+#	new file:   login/login_labstaffCss.css
+#	new file:   login/login_student.html
+#	new file:   login/login_studentCss.css
+#	new file:   login/mainlogin.html
+#	new file:   login/mainloginCss.css
+#	new file:   records/edit_records.html
+#	new file:   records/records.html
+#	new file:   user edit/user_edit.css
+#	new file:   user edit/useredit.html
+#
