@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrowing</title>
+</head>
+<body>
+    
+    <a href="{% url 'home_user' %}">
+        <button class="register-btn">Home</button>
+    </a>
+    <a href="{% url 'catalog_user' %}">
+        <button class="register-btn">CATALOG</button>
+    </a>
+    <a href="{% url 'catalog_user' %}">
+        <button class="register-btn">BACK</button>
+    </a>
+    <form action="{% url 'logout' %}" method="post">
+        {% csrf_token %}
+        <button type="submit" id="logout-btn" class="logout-btn">Logout</button>
+    </form>
+
+    <form class="bd-example" method="post" action="">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Borrowing</legend>
+            {%  if user.is_authenticated %}
+                <h3>username: {{ user.username }}</h3>
+            {% endif %}
+            <label for="id_name" class="form-label">Equipment name: </label>
+            <input type="text" value="{{ equipment.name }}" disabled></input>
+
+            <label for="id_parcel_id" class="form-label">Parcel ID: </label>
+            <input type="text" value="{{ equipment.parcel_id }}" disabled></input>
+            
+            <label for="id_brand" class="form-label">Brand: </label>
+            <input type="text" value="{{ equipment.brand }}" disabled></input>
+
+            <p>
+                <label for="date_borrow">Borrowing date</label>
+                <input type="date" name="date_borrow">
+
+                <label for="date_return">Return date</label>
+                <input type="date" name="date_return">
+            </p>
+          
+            <button type="submit">Button submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,95 @@
+{% extends 'user/base.html' %}
+{% load static %}
+
+{% block static %}<link rel="stylesheet" href="{% static 'catalog_user.css' %}">{% endblock %}
+{% block title %}Catalog for Borrowing{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Catalog for Borrowing</h1>
+        <header>
+            <div class="header-left">
+                <form action="" method="get">
+                    <input type="text" placeholder="Search..." id="search-bar" name="q" value="{{ request.GET.q|default_if_none:'' }}"
+                        onkeydown="if(event.key === 'Enter'){ this.form.submit(); }">
+                </form>
+
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <span>Status: </span>
+                    <select id="status-dropdown" name="filter" onchange="this.form.submit();">
+                        <option value="">All</option>
+                        <option value="Available" {% if selected_status == 'Available' %}selected{% endif %}>Available</option>
+                        <option value="Unavailable" {% if selected_status == 'Unavailable' %}selected{% endif %}>Unavailable</option>
+                    </select>
+                </form>
+            </div>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Picture</th>
+                    <th scope="col">Equipment</th>
+                    <th scope="col">Parcel ID</th>
+                    <th scope="col">Brand</th>
+                    <th scope="col">Date Borrow</th>
+                    <th scope="col">Date Return</th>
+                    <th scope="col">Borrow</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for equipment in all_equipment %}
+                    <tr>
+                        <th scope="row">{{ forloop.counter }}</th>
+                        <td><img src="{{ equipment.image.url }}" alt="{{ equipment.name }}"></td>
+                        <td>{{ equipment.name }}</td>
+                        <td>{{ equipment.parcel_id }}</td>
+                        <td>{{ equipment.brand }}</td>
+                        <td>
+                            {% if equipment.date_borrow %}
+                                {{ equipment.date_borrow|date:"d-m-Y" }}
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if equipment.date_return %}
+                                {{ equipment.date_return|date:"d-m-Y" }}
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if equipment.status %}
+                                <button id="disabled-button" type="submit" disabled>Borrow</button>
+
+                            {% else %}
+                                <form action="{% url 'borrow_request' equipment.equipment_id %}" method="get">
+                                    <button id="request-button" type="submit">Borrow</button>
+                                </form>
+                            
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if equipment.status %}
+                                <span class="status unavailable">Unavailable</span>
+
+                            {% else %}
+                                <span class="status available">Available</span>
+                            
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <script>
+                function navigateToBorrow(equiment_id) {
+                    window.location.href = '/user_borrowing/' + equiment_id ;
+                }
+            </script>
+        </table>
+    </div>
+{% endblock %}
