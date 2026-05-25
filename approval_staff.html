@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+    <link rel="stylesheet" href="{% static 'request.css' %}">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li><a href="{% url 'home_staff' %}">HOME</a></li>
+                <li><a href="{% url 'catalog_staff' %}">CATALOG</a></li>
+                <li><a href="{% url 'approval_staff' %}">APPROVAL</a></li>
+                <li><a href="{% url 'history_staff' %}">HISTORY</a></li>
+                <form action="{% url 'logout' %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit" id="logout-btn" class="logout-btn">Logout</button>
+                </form>
+        
+            </ul>
+        </nav>
+
+        <h2>APPROVAL</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Equipment</th>
+                    <th scope="col">Parcel ID</th>
+                    <th scope="col">Borrower</th>
+                    <th scope="col">Tel.</th>
+                    <th scope="col">Date Borrow</th>
+                    <th scope="col">Date Return</th>
+                    <th scope="col">Approval</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if not all_borrow %}
+                    <tr>
+                        <td colspan="8" style="text-align: center;">No data</td>
+                    </tr>
+                {% else %}
+                    {% for borrow in all_borrow %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{ borrow.equipment.name }}</td>
+                            <td>{{ borrow.equipment.parcel_id }}</td>
+                            <td>{{ borrow.borrower.fullname }}</td>
+                            <td>{{ borrow.borrower.phone }}</td>
+                            <td>{{ borrow.borrowed_on|date:"d-m-Y" }}</td>
+                            <td>{{ borrow.returned_on|date:"d-m-Y" }}</td>
+                            <td>
+                                <form action="{% url 'borrow_pass' borrow.id %}" method="post">
+                                    {% csrf_token %}
+                                    <button class="btn edit" type="submit" name="action" value="agree">Agree</button>
+                                    <button class="btn delete" type="submit" name="action" value="disagree">Disagree</button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
